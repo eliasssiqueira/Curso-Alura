@@ -1,9 +1,19 @@
-body{
-   
-}
+
 
 .titulo-principal{
     padding-left:20px; 
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.titulo-principal:hover{
+    font-size: 40px;
+    color: rgb(35, 32, 106);
+}
+
+.titulo-principal:active{
+    color: red;
+    border:5px solid rgb(26, 218, 45) ;
 }
 
 .titulo-centralizado{
@@ -23,12 +33,22 @@ p{
     text-align: center;
 }
 
+.destaque-texto:hover{
+    color: #139a13;
+    font-size: large;
+}
+
 #missao{
     font-size: 20px;
 }
 
 em strong{
     color: red;
+}
+
+em strong:hover{
+    color: #2b15b8;
+    font-size: 25px;
 }
 
 .itens{
@@ -45,6 +65,13 @@ ul{
     vertical-align: top;
     width: 20%;
     margin-right: 15%;
+}
+
+ul li:hover{
+    color: #1f24b5;
+    font-weight: bold;
+    border: 2px solid rgb(98, 0, 128);
+    border-radius: 5px;
 }
 
 .imagembeneficios{
