@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'icones';
+    src: url(../font/icones.ttf);
+}
+
+body{
+    background-color: #1d232a;
+    font-family: 'open sans', 'icones', sans-serif;
+    color: #ffffff;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #15191c;
+    padding: 8px 16px;
+    box-shadow: 0px 4px 4px rgb(0, 0, 0.16);
+}
+.cabecalho__menu i::before{
+    content: "\e904";
+}
+
+.cabecalho__notificacao i::before{
+    content: "\e906";
+}
